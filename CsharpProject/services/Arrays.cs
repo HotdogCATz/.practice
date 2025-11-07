@@ -1,6 +1,6 @@
 namespace Services
 {
-static class ArraysContainer
+    static class ArraysContainer
     {
         public static void PrintArray(int[] arr)
         {
@@ -11,7 +11,7 @@ static class ArraysContainer
             }
             Console.Write(arr[arr.Length - 1] + "} ");
         }
-        
+
         public static void ReverseArray(int[] arr)
         {
             for (int i = 0; i < arr.Length / 2; i++)
@@ -19,6 +19,23 @@ static class ArraysContainer
                 int temp = arr[i];
                 arr[i] = arr[arr.Length - 1 - i];
                 arr[arr.Length - 1 - i] = temp;
+            }
+            PrintArray(arr);
+        }
+
+        public static void SortArray(int[] arr)
+        {
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                for (int j = 0; j < arr.Length - i - 1; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        int temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                    }
+                }
             }
             PrintArray(arr);
         }

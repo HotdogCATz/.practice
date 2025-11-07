@@ -12,3 +12,4 @@ D:\0WORK\.practice\CsharpProject\obj\Debug\net8.0\refint\CsharpProject.dll
 D:\0WORK\.practice\CsharpProject\obj\Debug\net8.0\CsharpProject.pdb
 D:\0WORK\.practice\CsharpProject\obj\Debug\net8.0\CsharpProject.genruntimeconfig.cache
 D:\0WORK\.practice\CsharpProject\obj\Debug\net8.0\ref\CsharpProject.dll
+D:\0WORK\.practice\CsharpProject\obj\Debug\net8.0\CsharpProject.sourcelink.json
